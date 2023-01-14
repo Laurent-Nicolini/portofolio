@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0 2%;
+    text-align: justify;
+}
+
+a:link { 
+ text-decoration:none; 
+} 
+
+/*----------------------*/
+/* Liens menu navigation*/
+/*----------------------*/
+
+.nav-link:hover{
+    border-bottom: 1px solid black;
+}
+
+/*--------------------------------------*/
+/*Présentation*/
+/*--------------------------------------*/
+
+.page_content{
+    margin: 4%;
+}
+
+.page_content header{
+    margin-top: 5%;
+    max-width: 80%;
+}
+
+.page_content header h1{
+    margin: 0;
+    font-family: 'oswald', sans-serif;
+    font-weight: 600;
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+
+main header p{
+    line-height: 4.3vh;
+    color: #818181;
+}
+
+.page_content header button{
+    color: black;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding: 0 0 5px 0;
+    font-size: 2vh;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.page_content header button a{
+    color: inherit;
+}
+
+.page_content header button:hover{
+    color: #ccc;
+    border-bottom-color: black;
+}
+
+/*--------------------------------------*/
+/*Expertise*/
+/*--------------------------------------*/
+
+.expertise{
+    font-family: 'oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5vw;
+}
+
+.progress{
+    height: 28px;
+}
+
+.en_cours{
+    color: #000;
+}
+
+/*--------------------------------------*/
+/*Section projets réalisés*/
+/*--------------------------------------*/
+
+.projects_section h3{
+    font-family: 'oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5vw;
+}
+
+.card-link{
+    color: black;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding: 0 0 5px 0;
+    font-size: 2vh;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.card-link:hover{
+    color: #ccc;
+    border-bottom-color: black;
+}
+
+/*--------------------------------------*/
+/*-- Pied de page -- Par Bootstrap    --*/
+/*--------------------------------------*/
+
+
+
+/*--------------------------------------*/
+/*Version CSS pour les appareils mobiles*/
+/*---------- par Bootstrap -------------*/
+/*--------------------------------------*/
+
+
+/* Style PDF pour cv.html*/
+
+.pdf{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .pdf{
+        height: 500px;
+        width: 500px;
+    }
+}
